@@ -1,0 +1,5 @@
+{
+  "serverUrl": "wss://YOUR_PEAK_SERVER_URL/ws",
+  "deviceToken": "pk_dev_office_pc_2026_authorized",
+  "deviceName": "Office PC"
+}

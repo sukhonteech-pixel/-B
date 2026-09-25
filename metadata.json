@@ -1,0 +1,6 @@
+{
+  "name": "PEAK AUTOMATION",
+  "description": "ระบบควบคุมและสั่งการ Prime Global Asset อัตโนมัติสำหรับ PEAK Real Estate",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

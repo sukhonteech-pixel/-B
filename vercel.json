@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "functions": {
+    "api/index.ts": {
+      "memory": 1024,
+      "maxDuration": 60,
+      "includeFiles": "server/data/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/uploads/(.*)",
+      "destination": "/api"
+    },
+    {
+      "source": "/((?!api|uploads).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

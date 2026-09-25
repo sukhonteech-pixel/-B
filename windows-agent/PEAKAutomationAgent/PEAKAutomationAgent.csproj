@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyTitle>PEAK Automation Agent for Prime Global Asset</AssemblyTitle>
+    <Company>PEAK Real Estate</Company>
+    <Product>PEAK Automation Desktop Agent</Product>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Windows UI Automation and Accessibility API -->
+    <PackageReference Include="Interop.UIAutomationClient" Version="10.19041.0" />
+    <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
